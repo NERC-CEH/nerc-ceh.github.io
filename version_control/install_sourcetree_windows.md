@@ -9,6 +9,7 @@ Here are instructions on how to install SourceTree on Windows.  This is a pre-re
 <img src="images/sourcetree_license.png" width="75%" style="float: left;">
 
   - Atlassian account: either login to your existing account, or else Go to My Atlassian, create a new account (look for **Need an account? Sign up.**) and use that
+  
 <img src="images/sourcetree_login.png" width="75%" style="float: left;">
 
   - Now **Skip Setup** - we will do everything else in the exercises
