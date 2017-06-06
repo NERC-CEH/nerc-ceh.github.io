@@ -35,6 +35,7 @@ Git can be used from the command line rather than via a graphical client like So
 - https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line: Command line tutorial, page by page
 - https://try.github.io: Interactive command line tutorial
 - https://git-scm.com/docs: git command line reference
+- http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/index.html: superb and concise command line tutorial from basics to github
 
 There is a Terminal Window within Source Tree if you want to try out the command line:  Actions > Open in Terminal
 
