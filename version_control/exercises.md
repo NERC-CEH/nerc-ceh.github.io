@@ -38,9 +38,9 @@ This exercise will take you through your first steps of applying version control
 - checkout a previous version of your changes
 
 ### Step 1.  Create your working project
-This step creates project folder with sub-folders and files ready for the rest of the exercise.
+This step creates a project folder with sub-folders and files ready for the rest of the exercise.
 
-- Download <https://nerc-ceh.github.io/version_control/MyProject.zip> and unzip to a convenient working location.  This provides you with a working folder containing sub-folders and files for you to edit and version control.  You should have something like this:
+- Download <https://nerc-ceh.github.io/version_control/MyProject.zip> and unzip to a convenient working location (eg under your **Documents** folder).  This provides you with a working folder containing sub-folders and files for you to edit and version control.  You should have something like this:
 
 <img src="images/ex1_0.png"  width="75%">
 
@@ -64,6 +64,10 @@ This step adds the Git repository to the root of your project folder.
 
 <img src="images/ex1_1a.png" width="75%">
 
+- You **may** be prompted to provide your name and e-mail.  If you've set this up before then it won't prompt you.  If required, enter you details and tick the **Use these details on all repositories** so you don't have to do it again.  Your details are used to add your identity to the log when you **Commit** edits:
+
+<img src="images/ex1_user_details.png" width="75%">
+
 - SourceTree will now display the state of your version controlled project, with all files in the **Unstaged files** area:
 
 <img src="images/ex1_unstaged.png" width="75%">
@@ -73,9 +77,9 @@ This step adds the Git repository to the root of your project folder.
 <img src="images/ex1_git_hidden.png" width="75%">
 
 ### Step 3. Populate your new repository
-Your new Git repository does not yet contain any files to version control, that is all files are currently Untracked.  This is why they have a question mark next to them in the previous image.  This step adds all files of the project into Git.
+Your new Git repository does not yet contain any files to version control, that is all files are currently **Untracked**.  This is why they have a question mark next to them in SourceTree.  This step puts all your files into Git, which is a two step process of **Staging** and then **Committing** them.
 
-- Add all these files to the **Staged files** area by pressing the **Stage All** button.  
+- Add all files to the **Staged files** area by pressing the **Stage All** button.  
 
 <img src="images/ex1_stage.png" width="75%">
 
@@ -103,33 +107,48 @@ In this step you will edit some files and commit your changes to Git.
 
 <img src="images/ex1_staged_edits.png" width="75%">
 
-### Step 5. Review the Git log and checkout a version
-In this step you will look at the log of your edits and checkout one of those revisions.
+### Step 5.  Stage specific files
+In this step you will edit two files, but **Stage** and **Commit** them separately to illustrate how commits can be used to organise your edits.
 
-- Repeat Step 4. at least twice to build up a log of changes
-- Now take a look at the log in Git by pressing the **Log/History** tab at the bottom
+- Add some new text to **two** files (eg cats/Siamese.txt and dogs/spaniel.txt)
+
+- In **Unstaged files** select just **one** edited file, then press **Stage Selected**
+
+<img src="images/ex1_stage_selected.png" width="75%">
+
+- This time, only your selected file is staged ready to commit.  Give it an appropriate message and then **Commit**
+
+<img src="images/ex1_commit_selected.png" width="75%">
+
+- You will see one file left in **Unstaged files**, stage and commit it with a message:
+
+<img src="images/ex1_commit_selected2.png" width="75%">
+
+### Step 6. Review the Git log and checkout a version
+You should now have a range of file changes committed to Git.  In this step you will look at the log of your edits and checkout one of those revisions.
+
+- Take a look at the Git log by pressing the **Log/History** tab at the bottom:
 
 <img src="images/ex1_logs.png" width="75%">
 
 - There are 3 panels showing different aspects of the log:
-  1. firstly each commit together with its commit message is shown in the top panel
+  1. firstly each commit together with its commit message is shown in the top panel.
   2. select a commit in the top panel to display which files were edited (bottom left panel)
   3. select a file in the bottom left panel to display its edits (bottom right panel)
 
 <img src="images/ex1_log_panels.png" width="75%">
 
-- you will now checkout one of your versions shown in the log.  When you checkout a specific commit all files in your working copy will be exactly as they were when you comitted those changes.
-- on your log, right click an earlier commit (eg in my example 'Added info about elephant trunks') and select **Checkout...** from the context menu:
+- you will now checkout one of the commits shown in the log.  When you checkout a specific commit all files in your working copy will be exactly as they were when you committed those changes.  On your log, right click an earlier commit in the top panel (eg in my example 'Added info about elephant trunks') and select **Checkout...** from the context menu:
 
 <img src="images/ex1_checkout.png" width="75%">
 
-- you will see the following warning, for this exercise it is safe to ignore it:
+- you will see the following warning, for this exercise it is safe to ignore it (DO NOT tick **Clean (discard all changes)**):
 
 <img src="images/ex1_checkout_warning.png" width="75%">
 
-- the log shows the **HEAD** tag on the commit you just checked out - this indicates all files in your working copy are now as they were when you make that commit.  If you look at the files in that folder you will see all work done after that commit is missing.  This is one way you can return to previous versions of files.
+- the log shows the **HEAD** tag on the commit you just checked out - this indicates all files in your working copy are now as they were when you make that commit.  If you look at the files in that folder in Windows Explorer you will see all work done after that commit is missing.  This is one way you can get hold of previous versions of files.
 
-<img src="images/ex1_checkedout.png" width="75%">
+<img src="images/ex1_checkedout.png" width="75%">s
 
 - Return to the latest version of your work again by checking out the latest commit of the **master** branch - this is done by right clicking on the **master** and selecting **Checkout...** from the context menu
 
@@ -139,9 +158,29 @@ In this step you will look at the log of your edits and checkout one of those re
 
 <img src="images/ex1_checkedout_master.png" width="75%">
 
-### Step 6.  Ignoring files
-It is very useful to be able to **not** version control some files in your project.  This is done by adding a file named **.gitignore** to the root folder of your project.  File names and file patterns added to it are ignored by Git.
-- create two files in the root your project called **.ignore** and **temporary_file.txt** respectively.  Look at your **Unstaged files** panel in SourceTree.  As expected you see both files ready to be staged and committed:
+### Step 6.  Tagging
+As you can imagine, the Git log soon fills with many commits.  There are times when you will want to identify a specific point in the log as something more significant - such as when you have completed major blocks of work, reached a milestone or finished a major change to modelling or website code.  This is a release point that you can then refer to via a version number - eg v1.0.1 of my model or website.  In Git this is called an **annotated tag**.  The complete state of your repository is stored against this tag.  This step will add an annotated tag to your repository.
+
+- Select the **Tag** option highlighted below, fill in the dialogue like this:
+  - **Tag name**: your version number (eg v1.0.0)
+  - **Working copy parent** or **Specified commit**: choose either the current state of your repository or a specific commit that this tag will be tied to
+  - **Advanced Option**: for this exercise we aren't using them
+  - **Add Tag**: press to add the tag
+  
+<img src="images/ex1_add_tag.png" width="75%">
+
+- You will now see the tag in your **Log/History** view and you can also list all tags on the left by selecting the **Tags** dropdown:
+
+<img src="images/ex1_tagged.png" width="75%">
+
+- When you need your files in the state referred to by the tag, just **checkout** that tag as you did earlier in this exercise for a specific commit.
+
+<img src="images/ex1_checkout_tag.png" width="75%">
+
+### Step 7.  Ignoring files
+It is very useful to be able to exclude some files from version control, for example you may have other processes that generate temporary files in your project.  Ignoring files is done by adding a file named **.gitignore** to the root folder of your project.  File names and file patterns added to it are ignored by Git.  The following step will demonstrate it.
+
+- create two files in the root your project called **.ignore** and **temporary_file.txt** respectively.  Look at your **Unstaged files** panel in SourceTree.  As expected you see both files are untracked (purple question mark) and ready to be staged and committed:
 
 <img src="images/ex1_gitignore_unstaged.png" width="75%">
 
@@ -194,7 +233,7 @@ To start adding and managing files you need to download your Github repository. 
 
 <img src="images/ex2_clone_copy_url.png" width="75%">
 
-- Open SourceTree and go to **File** > **Clone / New...** > **Clone tab**, and fill in the form like this:
+- Open SourceTree and go to **File** > **Clone / New...** > press the **Clone** option and fill in the form like this:
   - **Source Path / URL**: paste the url you just copied from Github (eg https://github.com/NERC-CEH/jons_exercise_repo.git)
   - **Destination Path**: this is the folder where you want to save the repository locally.  For example: C:\Users\jcoop\Documents\repos\jons_exercise_repo - **NOTE**: the final folder named in that path must not yet exist as it will be created by SourceTree (eg jons_exercise_repo), however the rest of the folder structure must already exist (eg C:\Users\jcoop\Documents\repos)
   - **Name**: this is the name that SourceTree will display, keep it the same as the repository name (eg jons_exercise_repo)
@@ -211,7 +250,11 @@ To start adding and managing files you need to download your Github repository. 
    - Open Windows Explorer go to the project you created in Exercise 1
    - Copy everything from your Exercise 1 project **EXCEPT the .git folder** into the repository you just created, for example from D:\repos\MyProject\ to D:\repos\jons_exercise_repo\ (alternatively you could start afresh with the contents of the zip from Exercise 1 - https://github.com/NERC-CEH/git-introduction/raw/master/MyProject.zip):
 
+Before:
+
 <img src="images/ex2_copy_files.png" width="75%">
+
+After:
 
 <img src="images/ex2_copied_files.png" width="75%">
 
