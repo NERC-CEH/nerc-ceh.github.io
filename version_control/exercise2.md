@@ -38,7 +38,6 @@ Throughout [Exercise 1](https://nerc-ceh.github.io/version_control/exercise1) yo
 
 <img src="images/ex2_empty_repo.png" width="75%">
 
-<a name="step3"></a>
 ### Step 3.  Download (clone) the Github repository
 To start adding and managing files you need to download your Github repository.  This is called **cloning** your repository.
 
