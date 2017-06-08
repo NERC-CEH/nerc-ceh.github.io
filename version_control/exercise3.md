@@ -15,7 +15,7 @@ Until now, you have been the only person working on your Github hosted repositor
 
 ###  Step 2.  Clone just one team member's repository
 - Choose whose repository from Exercise 2 you are all going to work with.
-- Those of you who don't yet have that repository locally must clone it.  Follow the instructions from Exercise 2 Step 3 and use the URL of the repository you have chosen to work with.
+- Those of you who don't yet have that repository locally must clone it from GitHub.  Follow the instructions from [Exercise 2 Step 3](https://nerc-ceh.github.io/version_control/exercise2#step3) and use the URL of the repository you have chosen to work with.
 - Everyone in your team should now have a clone of the same repository.
 
 ###  Step 3.  One team member creates a branch, commits some edits and pushes to Github
