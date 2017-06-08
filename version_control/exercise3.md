@@ -37,9 +37,9 @@ Until now, you have been the only person working on your Github hosted repositor
 
 <img src="images/ex3_branch_created.png" width="75%">
 
-- With your new branch **checked out** make some changes - in Windows Explorer create a folder at the root of your project called **giraffes**, within that folder create a new text file called Northern.txt that contains some text about the Northern Giraffe.
+- You will now make some changes and commit to your new branch.  In Windows Explorer create a folder at the root of your project called **giraffes**, within that folder create a new text file called Northern.txt that contains some text about the Northern Giraffe.
 
-<img src="images/ex3_add_giraffe.png" width="75%">
+<img src="images/ex3_branch_add_giraffe.png" width="75%">
 
 - In SourceTree, stage and commit your edits with a brief message:
 
