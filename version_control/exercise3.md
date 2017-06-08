@@ -1,10 +1,10 @@
 https://nerc-ceh.github.io/version_control/exercises
 
-[Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository
-[Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
-[Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
+- [Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository
+- [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
+- [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
 
-## Exercise 3.  Team working
+# Exercise 3.  Team working
 Until now, you have been the only person working on your Github hosted repository.  This may be sufficient for your needs.  However, you may be part of a team where you all need to edit the same code base in a managed way.  In this exercise you will cover:
 - branch, merge and checkout - this will allow you to work on a **branch** of your repository (a bit like a copy), merge those branches back into the **master** branch and move between branches
 - pulling down changes from your team and resolving conflicts

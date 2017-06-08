@@ -1,11 +1,11 @@
 https://nerc-ceh.github.io/version_control/exercises
 
-[Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository
-[Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
-[Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
+- [Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository
+- [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
+- [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
 
-## Exercise 2.  Work on-line with Github
-Throughout Exercise 1 your Git repository only existed locally to you inside your project folder.  You will now learn about hosting it remotely.  **Github** is a service that allows you to host your Git repository on-line so you can access it from anywhere, share it, collaborate and more.  We have a NERC-CEH organisation in Github that you can join and it will provide a private place for you to host your repositories.  In this exercise you will:
+# Exercise 2.  Work on-line with Github
+Throughout [Exercise 1](https://nerc-ceh.github.io/version_control/exercise1) your Git repository only existed locally to you inside your project folder.  You will now learn about hosting it remotely on **Github**.  Github is a service that allows you to host your Git repository on-line so you can access it from anywhere, share it, collaborate and more.  We have a NERC-CEH organisation in Github that you can join and it will provide a private place for you to host your repositories.  In this exercise you will:
   - register with Github
   - join the NERC-CEH organisation
   - create a repository in the NERC-CEH organisation
@@ -19,7 +19,7 @@ Throughout Exercise 1 your Git repository only existed locally to you inside you
 - You need to join the NERC-CEH organisation, but this is by invitation only.  So, once you have signed-up let us know in the classroom so we can invite you.  If doing this outside the lesson, please e-mail foo@ceh.ac.uk and you will be invited.  Accept the invitation by...???...under profile perhaps...needs checking.
 
 ### Step 2.  Create a private repository
-- In a browser, go to https://github.com, make sure you are logged in and select the the **New repository ** button to begin creating a new repository
+- In a browser, go to https://github.com, make sure you are logged in and select the the **New repository** button to begin creating a new repository
 
 <img src="images/ex2_new.png" width="75%">
 
@@ -43,7 +43,7 @@ To start adding and managing files you need to download your Github repository. 
 
 - Go to your repository on Github (eg https://github.com/NERC-CEH/jons_exercise_repo)
   - press the **Clone or download** button
-  -  press the **copy to clipboard** button, as shown highlighted below (make sure the URL shown starts with **https** and not **git** - otherwise select **Use HTTPS** nearby):
+  -  press the **copy to clipboard** button as shown highlighted below (make sure the URL shown starts with **https** and not **git** - otherwise select **Use HTTPS** nearby):
 
 <img src="images/ex2_clone_copy_url.png" width="75%">
 
@@ -62,7 +62,7 @@ To start adding and managing files you need to download your Github repository. 
  
  - You will now add some files to this repository.  
    - Open Windows Explorer go to the project you created in Exercise 1
-   - Copy everything from your Exercise 1 project **EXCEPT the .git folder** into the repository you just created, for example from D:\repos\MyProject\ to D:\repos\jons_exercise_repo\ (alternatively you could start afresh with the contents of the zip from Exercise 1 - https://github.com/NERC-CEH/git-introduction/raw/master/MyProject.zip):
+   - Copy everything from your Exercise 1 project **EXCEPT the .git folder** into the repository you just created, for example from D:\repos\MyProject\ to D:\repos\jons_exercise_repo\ (alternatively you could start afresh with the contents of the zip from Exercise 1 - https://nerc-ceh.github.io/version_control/MyProject.zip):
 
 Before:
 

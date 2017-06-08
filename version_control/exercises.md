@@ -8,10 +8,10 @@ These exercises introduce version control using Git.  We will do the following 3
 - [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
 - [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
 
-### Prerequisite: SourceTree installed
+## Prerequisite: SourceTree installed
 There are many clients for Git, in these exercises you will use SourceTree to manage Git.  SourceTree is a Git client for Windows and Mac.  If you haven't yet installed it please do so using these instructions: <https://nerc-ceh.github.io/version_control/install_sourcetree_windows>
 
-### A note about Git from the command line and Linux users
+## A note about Git from the command line and Linux users
 Git can be used from the command line rather than via a graphical client like SourceTree.  This can be especially useful for linux users and it also provides access to everything that Git can do, which isn't necessarily true of a graphical Git client.  Whilst these exercises use SourceTree, we have included panels of Git commands to illustrate how to achieve the same result from the command line.  These should help you understand the basics within the context of the exercises.  There are great tutorials and documentation out there, here are some links that will help your learning:
   - <https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line>: Command line tutorial, page by page
   - <https://try.github.io>: Interactive command line tutorial

@@ -1,10 +1,10 @@
 https://nerc-ceh.github.io/version_control/exercises
 
-[Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository
-[Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
-[Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
+- [Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository
+- [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
+- [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
 
-## Exercise 1. Create your first Git repository
+# Exercise 1. Create your first Git repository
 
 This exercise will take you through your first steps of applying version control using Git to a folder and its contents.  You will cover:
 
