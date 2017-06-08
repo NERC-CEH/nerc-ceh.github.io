@@ -22,9 +22,13 @@ Here are instructions on how to install SourceTree on Windows.  This is a pre-re
   
 <img src="images/sourcetree_ssh.png" width="75%">
 
-  - **Git not found**: SourceTree tries to find an installation of Git on your machine.  If it doesn't find one then you will see this panel.  Choose the first option **Download an embedded version of Git for SourceTree alone to use**
+  - **Git not found**: SourceTree tries to find an installation of Git on your machine.  If it doesn't find one then you will see this panel.  Choose the first option **Download an embedded version of Git for SourceTree alone to use**.
   
 <img src="images/git_install.png" width="75%">
+
+  - **Mercurial not found**: don't worry about this, just select the bottom option **I don't want to use Mercurial**
+  
+<img src="images/sourcetree_mercurial.png" width="75%">
 
   - You are now ready to do the [exercises](https://nerc-ceh.github.io/version_control/exercises) and should have SourceTree installed, open and looking like this:
   
