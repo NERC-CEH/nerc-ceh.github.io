@@ -1,4 +1,4 @@
-https://nerc-ceh.github.io/version_control/exercises
+https://nerc-ceh.github.io/version_control
 
 # Git Version Control Exercises
 
