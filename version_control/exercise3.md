@@ -92,26 +92,26 @@ Time to start working as a team.  You will now add some content to the giraffes 
 
 -  **Person 2:** You should now see the new giraffes folder containing Northern.txt, if you do not, make sure you have checked out the giraffes branch and aren't on the master branch. Simply add a new line of text to giraffes/Northern.txt - eg  'They can run at 55 km/h'.  Stage and commit your edit, and then push up to Github.
 
-- You should now have the idea that you and your colleague(s) can **Push** to share your changes and **Pull** to receive changes and therefore all keep in synch with each other.  This way you all contribute to the branch of the repository until the work is done.  But, what happens if two people independently edit the very same piece of text?  That is the next step.
+- You should now have the idea that you and your colleague(s) can **Push** to share changes and **Pull** to receive them and therefore all keep in synch with each other.  This way you all contribute to the branch of the repository until the work is done.  But, what happens if two people independently edit the very same piece of text?  That is the next step.
 
 ### Step 7.  Conflict resolution
-In this step you will learn how to solve the conflicts that arise when two people independently edit the same part of a file with different text.  You will cause a conflict to occur and use SourceTree's conflict resolution tool to fix it.  
+In this step you will learn how to solve the conflicts that arise when two people independently edit the same part of a file with different text.  You will create the conflict by both editing the same text, once one of you pushes your change to Github the other will see conflict errors when they try to push their change.  You will decide what the correct text should be and push the resolution to Github.  So start by creating the conflict...
 
-- **Two team members** should both open the same file (eg giraffes/Northern.txt).  Agree to edit the same line, but add slightly different text.
-- **Person 1:** stage, commit and push your changes up to Github.
-- **Person 2:** once person 1 has pushed up their change do a **stage** and **commit**, but this time do a **pull** before you **push** so that you pull down their edit.  You will get the following warning triangles in SourceTree, which say 'Conflicted' when you hover over them.  If you select your problem file the conflicting text is shown in the panel on the right in green with additional text inserted that tries to show you what is going on.
+- **Two team members** should agree to edit the same line of the same file (eg giraffes/Northern.txt), but add slightly different text.
+- **Person 1:** stage, commit and push your changes to Github.
+- **Person 2:** after person 1 has pushed their change, do a **stage** and **commit**, but this time do a **pull** before you **push** so that you pull down their edit.  You will get the following warning triangles in SourceTree that say **Conflicted** when you hover over them.  If you select your problem file the conflicting text is shown in the panel on the right in green with additional text inserted that tries to show you what is going on.
 
 <img src="images/ex3_conflicted.png" width="75%">
 
-- So what is going on and how do you fix it?  As you can see in my example, we have entered different text about the speed that giraffes run.  It is for us to agree who is right - and then open SourceTree's conflict resolution tool accept the correct edit.  I assume my latest edit of 65km/h is correct.  To resolve the conflict right click on the file name in either the staged or unstaged area, and in the context menu that appears select **Resolve Conflicts** > **Resolve Using 'Mine'**.  Of course you could opt for **Resolve Using 'Theirs'.  Also, if you have a more advanced conflict resolution and editing tool installed you can use that.
+- So what is going on and how do you fix it?  As you can see in the example, different text about the speed that giraffes run at has been added.  The conflicting text is now bordered by chevrons (<<< >>>).  Discuss and agree what the correct text should be!  Then, **Person 2** open the file that contains the conflict in an editor and simply replace everything shown as a conflict with the correct text - including the chevrons, equals signs and the big long number, here is how it looks before and after:
 
 <img src="images/ex3_edit_conflict.png" width="75%">
 
-- Back in SourceTree, in the **Unstaged Files** area right click the conflicted file and in the context menu select **Resolve conflicts** > **Mark Resolved**
+- Back in SourceTree, you will still have the conflict warning triangles next to the file.  You need to let SourceTree know that you have resolved the conflict, which you do by right clicking the file name and in the context menu select **Resolve conflicts** > **Mark Resolved**
 
 <img src="images/ex3_mark_resolved.png" width="75%">
 
-- Accept the **Confirm mark resolved** info panel that pops up:
+- Accept the **Confirm Mark Resolved** info panel that pops up:
 
 <img src="images/ex3_confirm_resolve.png" width="75%">
 
@@ -137,8 +137,19 @@ The team has finished all the work for the giraffes branch.  It is time to merge
 
 <img src="images/ex3_open_pull_request.png" width="75%">
 
-- All collaborators on the project will see the merge request when they go to the repositories main page on Github and select the **Pull requests** tab.  One of you should take a look, review the work and when you are happy with it press the **Merge pull request**, followed by **Confirm merge**:
+- All collaborators of the repository get an e-mail to let them know a pull request has been submitted.  They will also see the merge request pending when they go to the repository's main page on Github and select the **Pull requests** tab.  One of you should take a look, review the work and when you are happy with it press the **Merge pull request**, followed by **Confirm merge**:
 
 <img src="images/ex3_pending_pull_request.png" width="75%">
 
-- It will report that the pull request has been successfully merged, which concludes this exercise
+- It will report that the pull request has been successfully merged and the creator of the merge request will then be notified by e-mail.
+
+###  Step 9.  Exercises finished, please clean up Github if you've finished with them
+
+- This concludes the Version Control exercises.  Normally you will keep your repository running for the length of your project and even beyond.  However, it is quite possible to delete the repositories you own.  In a few days after the workshop we will remove the test repositories you created today in the NERC-CEH organisation.  This gives you time to review them outside the workshop if you want to.  However, feel free to delete your repository now to help us - you'll find the **Delete this repository** button in the **Danger Zone** under the **Settings** tab of your repository's main page, like this:
+ 
+<img src="images/ex3_settings.png" width="75%">
+
+<img src="images/ex3_danger_zone.png" width="75%">
+
+We hope you found these exercises useful and you continue to learn more about version control with Git as you incorporate it into your working processes.
+

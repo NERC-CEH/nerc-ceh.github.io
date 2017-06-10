@@ -11,21 +11,27 @@ Throughout [Exercise 1](https://nerc-ceh.github.io/version_control/exercise1) yo
   - create a repository in the NERC-CEH organisation
   - work with the repository locally and synchronise with Github
   
+**Please Note**: a few days after this workshop we will delete all the test repositories you create in Github today.
+  
 ### Step 1.  Create a Github account and join the NERC-CEH organisation
 - If you do not yet have an account with Github, open a browser, go to https://github.com and sign up using your CEH e-mail address.  
 
 <img src="images/ex2_signup.png" width="75%">
 
-- You need to join the NERC-CEH organisation, but this is by invitation only.  So, once you have signed-up let us know in the classroom so we can invite you.  If doing this outside the lesson, please e-mail foo@ceh.ac.uk and you will be invited.  Accept the invitation by...???...under profile perhaps...needs checking.
+- You need to join the NERC-CEH organisation, but this is by invitation only.  So, once you have signed-up let us know in the classroom so we can invite you.  If doing this outside the lesson, please e-mail appsupport@ceh.ac.uk and you will be invited.  You will receive an invitation e-mail with instructions to follow, it looks like this:
+  
+<img src="images/ex2_invitation-email.png" width="75%">
+
+- You can review your membership of organisations by taking a look at your profile on Github, where you will find the CEH logo once you are a member of NERC-CEH.
 
 ### Step 2.  Create a private repository
-- In a browser, go to https://github.com, make sure you are logged in and select the the **New repository** button to begin creating a new repository
+- In a browser, go to https://github.com, make sure you are logged in and select the **New repository** button to begin creating a new repository
 
-<img src="images/ex2_new.png" width="75%">
+<img src="images/ex2_invitation_email.png" width="75%">
 
-- Fill in the form as below and press **Create repository**
+- Fill in the form as below, please and press **Create repository**:
   - **Owner**: NERC-CEH
-  - **Repository Name**: something brief that describes it
+  - **Repository Name**: for today's workshop please use to <your_name>_exercise_repo
   - **Description**: add a note to say it was created as a tutorial exercise
   - **Public/Private**: select Private, which means you manage who can see it
   - **Initialize repository with README**: tick this box, it is good to have a README at the root of your project
@@ -55,6 +61,10 @@ To start adding and managing files you need to download your Github repository. 
 
 <img src="images/ex2_clone_sourcetree.png" width="75%">
 
+- You may be prompted to add your GitHub credentials, just enter them and press OK
+
+<img src="images/ex2_github_login.png" width="75%">
+
 ### Step 4.  Add files to your local copy
  - You will now have an empty local copy ready to use - in Sourcetree it looks like this, the same as in Exercise 1:
 
@@ -72,7 +82,7 @@ After:
 
 <img src="images/ex2_copied_files.png" width="75%">
 
-- Review your repository in source tree, you will see the new files in the Unstaged area - press **Stage all** to stage them:
+- Review your repository in SourceTree, you will see the new files in the Unstaged area - press **Stage all** to stage them:
 
 <img src="images/ex2_edits_unstaged.png" width="75%">
 
