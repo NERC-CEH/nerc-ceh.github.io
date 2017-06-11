@@ -150,19 +150,25 @@ As you can imagine, the Git log soon fills with many commits.  There are times w
 
 <img src="images/ex1_tagged.png" width="75%">
 
-- When you need your files in the state referred to by the tag, just **checkout** that tag as you did earlier in this exercise for a specific commit.
-
-<img src="images/ex1_checkout_tag.png" width="75%">
+- When you need your files in the state referred to by the tag, just **checkout** that tag as you did earlier in this exercise for a specific commit.  For now though, leave your repository as it is.
 
 ### Step 7.  Ignoring files
-It is very useful to be able to exclude some files from version control, for example you may have other processes that generate temporary files in your project.  Ignoring files is done by adding a file named **.gitignore** to the root folder of your project.  File names and file patterns added to it are ignored by Git.  The following step will demonstrate it.
+It is very useful to be able to exclude some files from version control, for example you may have other processes that generate temporary files in your project.  Ignoring files is done by adding a file named **.gitignore** to the root folder of your project.  File names and file patterns added to it are ignored by Git.  SourceTree makes this easy to do as follows.
 
-- create two files in the root your project called **.ignore** and **temporary_file.txt** respectively.  Look at your **Unstaged files** panel in SourceTree.  As expected you see both files are untracked (purple question mark) and ready to be staged and committed:
+- create a file in the root your project called **temporary_file.txt**, this is the one you are going to remove from version control.
 
-<img src="images/ex1_gitignore_unstaged.png" width="75%">
+- In SourceTree the file appears in the **Unstaged files** panel as untracked (purple question mark).  To remove it from version control, right click it and in the context menu select **Ignore**:
 
-- in your favourite text editor open **.gitignore**, add the single line **temporary_file.txt**, save and close.  Return to SourceTree's **Unstaged files** panel (refresh if necessary - f5) and this time only the **.gitignore** file is visible.  This shows that Git is now ignoring the temporary file and it can't be staged or committed to Git.  You can use a file pattern like temp*.* instead to widen the scope of what is ignored:
+<img src="images/ex1_gitignore_context.png" width="75%">
 
-<img src="images/ex1_gitignore_ignored.png" width="75%">
+You will be given several options, that allow you to ignore multiple files or just this one.  Select **Ignore exact filename(s)** to only ignore this file and press **OK**.
 
-- stage and commit the .gitignore file
+<img src="images/ex1_gitignore_choices.png" width="75%">
+
+- In the **Unstaged** area the file has disappeared since it is now being ignored.  Another file has appeared, called .gitignore, this is just a file that tells Git what to ignore.  **Stage** and **Commit** this file with a brief message.
+
+<img src="images/ex1_gitignore_created.png" width="75%">
+
+- In Windows Explorer, take a look in the root of your project.  You will see that temporary_file.txt is still there.  You can open it and edit it.  However, changes to this file will not appear in SourceTree because you have now told Git to ignore it.
+
+### End of exercise 1

@@ -103,3 +103,5 @@ After:
 - Review your repo on Github (eg https://github.com/NERC-CEH/jons_exercise_repo).  You will see your new files and plenty of ways to explore them and their changes.  But most of all, your project is now safely up on Github and you have a local clone of the repository where you can manage your edits:
 
 <img src="images/ex2_github_pushed.png" width="75%">
+
+### End of exercise 2

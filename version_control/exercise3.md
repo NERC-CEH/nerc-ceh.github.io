@@ -153,3 +153,4 @@ The team has finished all the work for the giraffes branch.  It is time to merge
 
 We hope you found these exercises useful and you continue to learn more about version control with Git as you incorporate it into your working processes.
 
+### End of exercises
