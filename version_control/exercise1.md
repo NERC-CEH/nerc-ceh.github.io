@@ -8,11 +8,13 @@ https://nerc-ceh.github.io/version_control/exercises
 
 This exercise will take you through your first steps of applying version control using Git to a folder and its contents.  You will cover:
 
-- enable git on a folder
+- enable Git on a folder
 - review the status of files in the folder
-- repeatedly edit files and add your changes to git
+- repeatedly edit files and add your changes to Git
 - review changes
 - checkout a previous version of your changes
+- apply a tag to a specific version for future reference
+- exclude files from version control
 
 ### Step 1.  Create your working project
 This step creates a project folder with sub-folders and files ready for the rest of the exercise.
