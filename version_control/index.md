@@ -5,10 +5,10 @@ https://nerc-ceh.github.io/version_control
 These exercises introduce version control using Git.  We will do the following 3 sessions:
 
 - [Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository <https://nerc-ceh.github.io/version_control/exercise1>
-- [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
-- [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
+- [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github <https://nerc-ceh.github.io/version_control/exercise2>
+- [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests <https://nerc-ceh.github.io/version_control/exercise3>
 
-[Download the powerpoint presentation shown in the workshop](https://nerc-ceh.github.io/version_control/VersionControl.pptx)
+Download the powerpoint presentation shown in the workshop: <https://nerc-ceh.github.io/version_control/VersionControl.pptx>
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ There are great tutorials and documentation out there, here are some that will h
   - <https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line>: Command line tutorial, page by page
   - <https://git-scm.com/docs>: git command line reference
 
-To install just the command line on Windows use [Git for windows](https://git-for-windows.github.io/)
+To install just the command line on Windows use [Git for windows: https://git-for-windows.github.io/](https://git-for-windows.github.io/)
 
 ### Linux users
 
