@@ -1,8 +1,4 @@
-https://nerc-ceh.github.io/version_control/exercises
-
-- [Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository
-- [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
-- [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
+https://nerc-ceh.github.io/version_control/exercise2
 
 # Exercise 2.  Work on-line with Github
 Throughout [Exercise 1](https://nerc-ceh.github.io/version_control/exercise1) your Git repository only existed locally to you inside your project folder.  You will now learn about hosting it remotely on **Github**.  Github is a service that allows you to host your Git repository on-line so you can access it from anywhere, share it, collaborate and more.  We have a NERC-CEH organisation in Github that you can join and it will provide a private place for you to host your repositories.  In this exercise you will:
@@ -12,6 +8,9 @@ Throughout [Exercise 1](https://nerc-ceh.github.io/version_control/exercise1) yo
   - work with the repository locally and synchronise with Github
   
 **Please Note**: a few days after this workshop we will delete all the test repositories you create in Github today.
+
+### Prerequisites: On-line
+To participate in this exercise you need to be on-line.  There should at least be wifi available during the workshop, so please use that.
   
 ### Step 1.  Create a Github account and join the NERC-CEH organisation
 - If you do not yet have an account with Github, open a browser, go to https://github.com and sign up using your CEH e-mail address.  
@@ -100,7 +99,7 @@ After:
 
 - After a short delay, your changes will be pushed to Github and SourceTree will indicate that no Pushes are pending.
 
-- Review your repo on Github (eg https://github.com/NERC-CEH/jons_exercise_repo).  You will see your new files and plenty of ways to explore them and their changes.  But most of all, your project is now safely up on Github and you have a local clone of the repository where you can manage your edits:
+- Review your repo on Github (eg https://github.com/NERC-CEH/jons_exercise_repo).  You will see your new files and plenty of ways to explore them and their changes.  But most of all, your work is safely on Github and you have a local clone of the repository where you can manage your edits.  Also, you can clone this repository and work on it wherever you need to:
 
 <img src="images/ex2_github_pushed.png" width="75%">
 
