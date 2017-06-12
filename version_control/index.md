@@ -1,6 +1,6 @@
 https://nerc-ceh.github.io/version_control
 
-# Git Version Control Exercises
+# CEH's Git Version Control Exercises
 
 These exercises introduce version control using Git.  We will do the following 3 sessions:
 

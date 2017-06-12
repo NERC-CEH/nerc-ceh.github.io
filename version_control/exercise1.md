@@ -1,8 +1,4 @@
-https://nerc-ceh.github.io/version_control/exercises
-
-- [Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository
-- [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
-- [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
+https://nerc-ceh.github.io/version_control/exercise1
 
 # Exercise 1. Create your first Git repository
 
@@ -15,6 +11,10 @@ This exercise will take you through your first steps of applying version control
 - checkout a previous version of your changes
 - apply a tag to a specific version for future reference
 - exclude files from version control
+
+### Prerequisite: SourceTree installed
+
+There are many clients for Git, in these exercises you will use SourceTree to manage Git.  SourceTree is a Git client for Windows and Mac.  If you haven't yet installed it please do so using these instructions: <https://nerc-ceh.github.io/version_control/install_sourcetree_windows>
 
 ### Step 1.  Create your working project
 This step creates a project folder with sub-folders and files ready for the rest of the exercise.
