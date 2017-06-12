@@ -4,7 +4,7 @@ https://nerc-ceh.github.io/version_control
 
 These exercises introduce version control using Git.  We will do the following 3 sessions:
 
-- [Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository https://nerc-ceh.github.io/version_control/exercise1
+- [Exercise 1.](https://nerc-ceh.github.io/version_control/exercise1) Create and manage your first Git repository <https://nerc-ceh.github.io/version_control/exercise1>
 - [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github
 - [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests
 
