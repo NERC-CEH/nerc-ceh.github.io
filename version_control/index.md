@@ -8,7 +8,7 @@ These exercises introduce version control using Git.  We will do the following 3
 - [Exercise 2.](https://nerc-ceh.github.io/version_control/exercise2) Work online with Github <https://nerc-ceh.github.io/version_control/exercise2>
 - [Exercise 3.](https://nerc-ceh.github.io/version_control/exercise3) Team work via branching/merging and pull requests <https://nerc-ceh.github.io/version_control/exercise3>
 
-Here is the powerpoint presentation shown in the workshop should you need it: <https://nerc-ceh.github.io/version_control/VersionControl.pptx>
+Here is the powerpoint presentation shown in the workshop should you need it: <https://nerc-ceh.github.io/version_control/VersionControl.pptx> or as a pdf <https://nerc-ceh.github.io/version_control/slides.pdf>
 
 ## Prerequisites
 
