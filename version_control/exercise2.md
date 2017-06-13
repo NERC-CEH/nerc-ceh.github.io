@@ -26,11 +26,11 @@ To participate in this exercise you need to be on-line.  There should at least b
 ### Step 2.  Create a private repository
 - In a browser, go to https://github.com, make sure you are logged in and select the **New repository** button to begin creating a new repository
 
-<img src="images/ex2_invitation_email.png" width="75%">
+<img src="images/ex2_new_repo.png" width="75%">
 
 - Fill in the form as below, please and press **Create repository**:
   - **Owner**: NERC-CEH
-  - **Repository Name**: for today's workshop please use to <your_name>_exercise_repo
+  - **Repository Name**: for today's workshop please name it your_name_exercise_repo eg jons_exercise_repo
   - **Description**: add a note to say it was created as a tutorial exercise
   - **Public/Private**: select Private, which means you manage who can see it
   - **Initialize repository with README**: tick this box, it is good to have a README at the root of your project
