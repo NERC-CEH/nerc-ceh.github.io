@@ -16,9 +16,9 @@ This exercise will take you through your first steps of applying version control
 
 There are many clients for Git, in these exercises you will use SourceTree to manage Git.  SourceTree is a Git client for Windows and Mac.  If you haven't yet installed it please do so using these instructions: <https://nerc-ceh.github.io/version_control/install_sourcetree_windows>
 
-### From the command line
+### Note about command line
 
-Using git from the command line can be a very convenient way to do your version control.  This script <https://nerc-ceh.github.io/version_control/commandline_ex1.txt> is an example of doing exercise 1 from the command line.  You can access a terminal window from Source Tree and enter git commands there.
+SourceTree gives you a graphical interface to manage Git and our exercises use that interface.  However, Git can be used from the command line, and this may ultimately be your preferred option.  For your reference we have included this script <https://nerc-ceh.github.io/version_control/commandline_exercise1.txt>, which shows you how to do exercise 1 entirely from the command line.  You can enter commands in SourceTree if you go to: Actions > Open in Terminal.
 
 However, for the classroom exercises, please use Source Tree as shown below rather than attempting the command line, since this keeps it easier for the trainers.
 

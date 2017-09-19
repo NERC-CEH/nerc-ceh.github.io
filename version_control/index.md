@@ -12,15 +12,15 @@ Here is the powerpoint presentation shown in the workshop should you need it: <h
 
 ## Prerequisites
 
-### SourceTree installed
+### Laptop with SourceTree installed
 
-There are many clients for Git, in these exercises you will use SourceTree to manage Git.  SourceTree is a Git client for Windows and Mac.  If you haven't yet installed it please do so using these instructions: <https://nerc-ceh.github.io/version_control/install_sourcetree_windows>
+There are many clients for Git, in these exercises you will use SourceTree to manage Git.  SourceTree is a Git client for Windows and Mac.  Please bring a laptop to the course with SourceTree installed.  You can install it by following these instructions: <https://nerc-ceh.github.io/version_control/install_sourcetree_windows>.
 
 ### On-line
 To participate in exercises 2 and 3 you need to be on-line.  There should at least be wifi available during the workshop, so please use that.
 
 ## A note about Git from the command line
-Git can be used from the command line rather than via a graphical client like SourceTree.  This can be especially useful for linux users and it also provides access to everything that Git can do, which isn't necessarily true of a graphical Git client.  The exercises we have put together do not teach the use of the command line.  However, we highly recommend learning to use it since it can be extremely convenient.  
+Git can be used from the command line rather than via a graphical client like SourceTree.  This can be especially useful for linux users and it also provides access to everything that Git can do, which isn't necessarily true of a graphical Git client.  The exercises we have put together do not teach the use of the command line (apart from exercise 1, where we have given you the commands to try).  However, we highly recommend learning to use it since it can be extremely convenient.  
 
 If you want to try the command line you can find it in SourceTree by going to: Actions > Open in Terminal
 
