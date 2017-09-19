@@ -2,7 +2,7 @@ https://nerc-ceh.github.io/version_control/install_sourcetree_windows
 
 ## How to install SourceTree on Windows
 
-Here are instructions on how to install SourceTree on Windows.  This is a pre-requisite needed to do the exercises in the Version Control Workshop (https://nerc-ceh.github.io/version_control).
+Here are instructions on how to install SourceTree on Windows.  This is a pre-requisite needed to do the exercises in the [Version Control Workshop](https://nerc-ceh.github.io/version_control).
 
 - In Windows Explorer Open **Y:\user_apps\SouceTree\SourceTreeSetup-2.0.20.1.exe** and fill in the details it asks for as follows (NOTE: the official download is at  https://www.sourcetreeapp.com that you may wish to use if outside CEH):
 
@@ -30,6 +30,6 @@ Here are instructions on how to install SourceTree on Windows.  This is a pre-re
   
 <img src="images/sourcetree_mercurial.png" width="75%">
 
-  - You are now ready to do the [exercises](https://nerc-ceh.github.io/version_control/exercises) and should have SourceTree installed, open and looking like this:
+  - You are now ready to do the [exercises](https://nerc-ceh.github.io/version_control/) and should have SourceTree installed, open and looking like this:
   
 <img src="images/sourcetree_opened.png" width="75%">

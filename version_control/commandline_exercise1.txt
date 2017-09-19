@@ -1,0 +1,64 @@
+# For many people, using git from the command line rather than via a graphical client (such as Source Tree as used in the classroom) is the easiest way to do their version control.
+# If you want to try exercise 1 (https://nerc-ceh.github.io/version_control/exercise1) using git from the command line, then this script provides the commands you need for each step of the exercise.
+
+
+#Step 1
+#Download and unzip the example project into a working area
+cd ~/Downloads
+rm -rf MyProject
+wget https://nerc-ceh.github.io/version_control/MyProject.zip
+unzip MyProject.zip
+rm MyProject.zip
+cd MyProject
+
+#Step 2
+#Turn project folder into a git repository
+git init
+
+#At any point take a look at the status of files in the repository - currently everything is 'unstaged'
+git status
+
+#Step 3
+#Populate your new repository by staging all files (add) and then commiting them
+git add -A
+git commit -m 'Initial commit to add first files to repository'
+
+#Step 4
+#Edit two files and then stage and commit both
+echo "  Two fingers on trunk." >> elephants/African.txt
+echo "  One finger on trunk." >> elephants/Asian.txt
+git add -A
+git commit -m 'Added info about elephant trunks'
+
+#Step 5
+#Edit two files and stage and commit them one at a time to create two separate commits
+echo "  Agile and active." >> cats/Siamese.txt
+echo "  Intelligent and bright." >> dogs/spaniel.txt
+git add cats/Siamese.txt
+git commit -m 'Edited some cat information'
+git add dogs/spaniel.txt
+git commit -m 'Edited some dog information'
+
+#Step 6
+#View the commits in the git log 
+git log
+#Checkout a specific commit, you'll have to replace <hash> with the hash number of your selected commit from the log
+git checkout <hash>
+#Return to latest version
+git checkout master
+
+#Step 7
+#Add a tag
+git tag -a v1.0 -m "Initial release of my app"
+#list tags
+git tag
+
+#Step 8
+#create a temporary file and setup git to ignore it
+echo 'my temporary text file' > 'temporary_file.txt'
+#'git status' will show the untracked file, now ignore it
+echo 'temporary_file.txt' > .gitignore
+#'git status' will now not show the new file, instead it will show .gitignore as untracked
+#stage and commit .gitignore
+git add -A
+git commit -m 'Added .gitignore'

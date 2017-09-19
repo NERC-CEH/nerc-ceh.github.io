@@ -16,6 +16,12 @@ This exercise will take you through your first steps of applying version control
 
 There are many clients for Git, in these exercises you will use SourceTree to manage Git.  SourceTree is a Git client for Windows and Mac.  If you haven't yet installed it please do so using these instructions: <https://nerc-ceh.github.io/version_control/install_sourcetree_windows>
 
+### From the command line
+
+Using git from the command line can be a very convenient way to do your version control.  This script <https://nerc-ceh.github.io/version_control/commandline_ex1.txt> is an example of doing exercise 1 from the command line.  You can access a terminal window from Source Tree and enter git commands there.
+
+However, for the classroom exercises, please use Source Tree as shown below rather than attempting the command line, since this keeps it easier for the trainers.
+
 ### Step 1.  Create your working project
 This step creates a project folder with sub-folders and files ready for the rest of the exercise.
 
@@ -137,7 +143,7 @@ You should now have a range of file changes committed to Git.  In this step you 
 
 <img src="images/ex1_checkedout_master.png" width="75%">
 
-### Step 6.  Tagging
+### Step 7.  Tagging
 As you can imagine, the Git log soon fills with many commits.  There are times when you will want to identify a specific point in the log as something more significant - such as when you have completed major blocks of work, reached a milestone or finished a major change to modelling or website code.  This is a release point that you can then refer to via a version number - eg v1.0.1 of my model or website.  In Git this is called an **annotated tag**.  The complete state of your repository is stored against this tag.  This step will add an annotated tag to your repository.
 
 - Select the **Tag** option highlighted below, fill in the dialogue like this:
@@ -154,7 +160,7 @@ As you can imagine, the Git log soon fills with many commits.  There are times w
 
 - When you need your files in the state referred to by the tag, just **checkout** that tag as you did earlier in this exercise for a specific commit.  For now though, leave your repository as it is.
 
-### Step 7.  Ignoring files
+### Step 8.  Ignoring files
 It is very useful to be able to exclude some files from version control, for example you may have other processes that generate temporary files in your project.  Ignoring files is done by adding a file named **.gitignore** to the root folder of your project.  File names and file patterns added to it are ignored by Git.  SourceTree makes this easy to do as follows.
 
 - create a file in the root your project called **temporary_file.txt**, this is the one you are going to remove from version control.
